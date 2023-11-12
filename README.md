@@ -3,7 +3,11 @@
 
 ```sh
 $ npm i @wordpress/scripts --save-dev
-$ npm install
+$ npm i dir-archiver --save-dev
+$ npm i node-sass --save-dev
+$ npm i rtlcss --save-dev
+$ npm i webpack --save-dev
+$ npm i webpack-cli --save-dev
 ```
 
 ## WP SEO and Markup requirements
