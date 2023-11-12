@@ -2,6 +2,7 @@
 1. За основу взята сборка <a href="https://github.com/automattic/_s" target="_blank">automattic</a>
 
 ```sh
+$ npm install
 $ npm i @wordpress/scripts --save-dev
 $ npm i dir-archiver --save-dev
 $ npm i node-sass --save-dev
@@ -9,6 +10,17 @@ $ npm i rtlcss --save-dev
 $ npm i webpack --save-dev
 $ npm i webpack-cli --save-dev
 ```
+
+### Available CLI commands
+
+`_s` comes packed with CLI commands tailored for WordPress theme development :
+
+- `npm run compile:css` : компилирует файлы SASS в CSS.
+- `npm run compile:rtl` : генерирует таблицу стилей RTL.
+- `npm run watch` : отслеживает все файлы SASS и перекомпилирует в css при их изменении.
+- `npm run lint:scss` : проверяет все файлы SASS на соответствие [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/).
+- `npm run lint:js` : проверяет все файлы JavaScript на соответствие [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
+- `npm run bundle` : создает архив .zip для распространения, исключая файлы разработки и системные файлы.
 
 ## WP SEO and Markup requirements
 
