@@ -30,4 +30,4 @@
 
 14. Если нужно поставить изображение на фон - то нужно его прописать через атрибут `style=””` в теге, а не в файле стилей CSS.
 
-За основу взята сборка <a href="https://github.com/automattic/_s">automattic</a>
+За основу взята сборка <a href="https://github.com/automattic/_s" target="_blank">automattic</a>
