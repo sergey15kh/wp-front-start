@@ -3,6 +3,22 @@
 
 ```sh
 $ npm install
+```
+
+```sh  
+"devDependencies": {
+    "@wordpress/scripts": "^26.16.0",
+    "dir-archiver": "^2.1.0",
+    "node-sass": "^9.0.0",
+    "rtlcss": "^4.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+```
+
+`или`
+
+```sh
 $ npm i @wordpress/scripts --save-dev
 $ npm i dir-archiver --save-dev
 $ npm i node-sass --save-dev
