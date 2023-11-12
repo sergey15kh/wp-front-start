@@ -16,7 +16,11 @@ $ npm install
   },
 ```
 
-`или`
+`или удаляем из devDependencies все зависимости и ставим последние пакеты`
+
+```sh  
+"devDependencies": {},
+```
 
 ```sh
 $ npm i @wordpress/scripts --save-dev
