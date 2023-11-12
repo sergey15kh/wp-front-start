@@ -13,8 +13,6 @@ $ npm i webpack-cli --save-dev
 
 ### Available CLI commands
 
-`_s` comes packed with CLI commands tailored for WordPress theme development :
-
 - `npm run compile:css` : компилирует файлы SASS в CSS.
 - `npm run compile:rtl` : генерирует таблицу стилей RTL.
 - `npm run watch` : отслеживает все файлы SASS и перекомпилирует в css при их изменении.
