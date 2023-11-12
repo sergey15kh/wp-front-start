@@ -1,3 +1,12 @@
 body {
-	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	color: $color__background-body;
+	background-color: $color__background-body;
+	transition: all 300ms ease-in-out;
+	&._lock {
+		overflow: hidden;
+	}
+	&.active {
+		background-color: #000;
+		color: #fff;
+	}
 }
